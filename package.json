@@ -3,10 +3,11 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-      "burn": "burn run burn.js",
+      "bun": "bun run bun.js",
       "node": "node run node.js",
-      "deno": "deno run --allow-net deno.js",
-      "test": "node run test.js",
+      "test-node": "node test.js",
+      "test-bun": "bun run test.js",
+      "test-deno": "deno test test.js",
 
       "upgrade": "yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest"
     }

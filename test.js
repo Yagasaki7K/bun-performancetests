@@ -1,3 +1,4 @@
+import { require } from "https://deno.land/std@0.115.0/core/module";
 const child_process = require("child_process");
 
 async function testCompilers() {
@@ -9,7 +10,7 @@ async function testCompilers() {
     const minutes = Math.floor(time / 60000);
     const seconds = Math.floor((time % 60000) / 1000);
     const milliseconds = time % 1000;
-    return `Minutes: ${minutes}, Seconds: ${seconds}, Milliseconds: ${milliseconds}`;
+    return `${minutes}m ${seconds}s ${milliseconds}ms`;
   };
 
   const run_script = async (script) => {
@@ -22,9 +23,9 @@ async function testCompilers() {
   };
 
   const promises = [
-    run_script("burn run burn.js"),
-    run_script("node run node.js"),
-    run_script("deno run --allow-net deno.js"),
+    run_script(burn_script),
+    run_script(node_script),
+    run_script(deno_script),
   ];
 
   await Promise.all(promises);

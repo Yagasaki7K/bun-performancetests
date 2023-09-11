@@ -13,4 +13,11 @@ npm install -g bun
 See the documentation if you dont use a npm: https://bun.sh/blog/bun-v1.0
 
 ## How to install Deno?
-No needs, we import from the web. If you want to change it: https://deno.com/
+https://deno.com/
+
+Or if you use a Ubuntu:
+
+`cd /tmp` > `curl -Lo "deno.zip" "https://github.com/denoland/deno/releases/latest/download/deno-x86_64-unknown-linux-gnu.zip"` >
+`sudo apt update && sudo apt install unzip` > `sudo unzip -d /usr/local/bin /tmp/deno.zip` > `ls -al /usr/local/bin/deno` > `deno --version`
+
+If you need a more deep explication: https://www.digitalocean.com/community/tutorials/how-to-install-the-deno-javascript-runtime-on-ubuntu-20-04
