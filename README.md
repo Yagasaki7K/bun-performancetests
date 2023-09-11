@@ -1,7 +1,11 @@
 # bun-performancetests
 App for evaluating compilation speed between compilers. Actually using Node, Bun and Deno 
 
-We are actually testing only using Hello World. Individually we result a time in ms from every request. If you want to show everything run `node test` and he will show to you a test in same time using the three compilers.
+We tested it using a simple mathematical calculation using ten decimal places and asked it to perform a series of calculations that for humans are considered complex in a single file
+
+const result = ((a + b) * (c + d)) / (e + f) + g - h;
+
+![](https://pbs.twimg.com/media/F5xSTLBX0AAiSVb?format=png&name=large)
 
 ## How to Install Node?
 https://nodejs.org/en
