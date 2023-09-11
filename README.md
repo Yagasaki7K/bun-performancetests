@@ -5,7 +5,7 @@ We tested it using a simple mathematical calculation using ten decimal places an
 
 const result = ((a + b) * (c + d)) / (e + f) + g - h;
 
-![](https://pbs.twimg.com/media/F5xSTLBX0AAiSVb?format=png&name=large)
+![image](https://github.com/Yagasaki7K/bun-performancetests/assets/23272064/9c99d1eb-122e-4207-a16b-df7ed0328038)
 
 ## How to Install Node?
 https://nodejs.org/en
