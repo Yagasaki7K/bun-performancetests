@@ -1,15 +1,12 @@
 {
-    "name": "burn-performancetests",
+    "name": "bun-performancetests",
     "version": "1.0.0",
-    "private": true,
+    "description": "Um exemplo de código `hello world` com contas complexas de matemática",
+    "main": "index.js",
     "scripts": {
-      "bun": "bun run bun.js",
-      "node": "node run node.js",
-      "test-node": "node test.js",
-      "test-bun": "bun run test.js",
-      "test-deno": "deno test test.js",
-
-      "upgrade": "yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest"
-    }
+      "bun": "bun run index.js",
+      "deno": "deno run index.js",
+      "node": "node index.js"
+    },
+    "dependencies": {}
   }
-  
