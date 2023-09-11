@@ -1,0 +1,14 @@
+{
+    "name": "burn-performancetests",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "burn": "burn run burn.js",
+      "node": "node run node.js",
+      "deno": "deno run --allow-net deno.js",
+      "test": "node run test.js",
+
+      "upgrade": "yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest"
+    }
+  }
+  
