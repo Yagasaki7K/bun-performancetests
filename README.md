@@ -25,3 +25,7 @@ Or if you use a Ubuntu:
 `sudo apt update && sudo apt install unzip` > `sudo unzip -d /usr/local/bin /tmp/deno.zip` > `ls -al /usr/local/bin/deno` > `deno --version`
 
 If you need a more deep explication: https://www.digitalocean.com/community/tutorials/how-to-install-the-deno-javascript-runtime-on-ubuntu-20-04
+
+# Tests using create-next-app@latest
+![image](https://github.com/Yagasaki7K/bun-performancetests/assets/23272064/e902a0f2-9469-4bf4-8ebe-75a726a6e29e)
+
